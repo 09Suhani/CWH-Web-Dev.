@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+.container{
+    /* border: 10px solid black; */
+    color: white;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+}
+
+.container h1{
+    font-size: 40px;
+    width: 65%;
+    font-family: 'Merriweather', serif;
+    border-bottom: 5px solid purple;
+    display: inline-block;
+    margin-bottom:11px ;
+    padding: 13px 0;
+}
+
+.box{
+    /* border: 2px solid purple; */
+    width: 100%;
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+}
+.box input{
+    background: none;
+    border:none;
+    width: 75%;
+    padding: 5px 10px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    outline: none;
+    color: white;
+}
+
+.box i{
+    width: 25px;
+    /* padding: 0 12px; */
+    text-align: center;
+}
+
+.btn{
+    /* width: 25%; */
+    cursor: pointer;
+    outline: none;
+    margin: 12px 0;
+    padding: 10px 21px;
+    border: 2px solid purple;
+    border-radius: 12px;
+    font-size: 18px;
+    font-family: 'Merriweather', serif;
+    background: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: white;
+    opacity: 0.8;
+    color: purple;
+}
+
+
+
